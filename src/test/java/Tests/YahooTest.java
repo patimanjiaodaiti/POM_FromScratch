@@ -1,6 +1,7 @@
 package Tests;
 
 
+import Utilities.MyLibrary;
 import Utilities.TestBase;
 import io.github.bonigarcia.wdm.DriverManagerType;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -19,6 +20,7 @@ public class YahooTest extends TestBase {
     @Test(priority = 3)
     public void secondTest() {
         driver.navigate().to("https://www.yahoo.com/");
+        myLibrary.TakeScreenshotsplease("yahooScreenShot");
     }
     @Test//if there is no priority it will run first then it execute the priority
     public void thirdTest() {
