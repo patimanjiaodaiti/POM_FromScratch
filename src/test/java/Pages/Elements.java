@@ -26,22 +26,23 @@ public class Elements extends TestBase {
 
     public void login(){
         //this is using incapsulation
-        driver.navigate().to(credentials.getWebsiteLink());
-        wait.until(ExpectedConditions.visibilityOf(signin));
-        signin.click();
-        wait.until(ExpectedConditions.visibilityOf(username));
-        username.sendKeys(credentials.getUserName()+ Keys.ENTER);
-        wait.until(ExpectedConditions.visibilityOf(password));
-        password.sendKeys(credentials.getPassWord()+Keys.ENTER);
+//        driver.navigate().to(credentials.getWebsiteLink());
+//        wait.until(ExpectedConditions.visibilityOf(signin));
+//        signin.click();
+//        wait.until(ExpectedConditions.visibilityOf(username));
+//        username.sendKeys(credentials.getUserName()+ Keys.ENTER);
+//        wait.until(ExpectedConditions.visibilityOf(password));
+//        password.sendKeys(credentials.getPassWord()+Keys.ENTER);
 
 
         //this is using config reader
-//        driver.navigate().to(ConfigReader.getInfo("WebSiteAddress"));
-//        signin.click();
-//        driver.navigate().to(ConfigReader.getInfo("UserName"));
-//        username.sendKeys(ConfigReader.getInfo("UserName") + Keys.ENTER);
-//        driver.navigate().to(ConfigReader.getInfo("PassWord"));
-//        username.sendKeys(ConfigReader.getInfo("PassWord") + Keys.ENTER);
+        driver.navigate().to(ConfigReader.getInfo("WebSiteAddress"));
+        signin.click();
+        wait.until(ExpectedConditions.visibilityOf(username));
+        username.sendKeys(ConfigReader.getInfo("UserName") + Keys.ENTER);
+        wait.until(ExpectedConditions.visibilityOf(username));
+        password.sendKeys(ConfigReader.getInfo("PassWord") + Keys.ENTER);
+
 
     }
 }
