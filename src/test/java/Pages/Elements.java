@@ -1,9 +1,7 @@
 package Pages;
 
-import Utilities.ConfigReader;
-import Utilities.ExcelReader;
+import Utilities.Encapsulation_credentials;
 import Utilities.TestBase;
-import Utilities.credentials;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -27,21 +25,21 @@ public class Elements extends TestBase {
 
     public void login(){
         //This is using Excel sheet
-        driver.navigate().to(ExcelCredentials.Website);
-        signin.click();
-        wait.until(ExpectedConditions.visibilityOf(username));
-        username.sendKeys(ExcelCredentials.UserName+Keys.ENTER);
-        wait.until(ExpectedConditions.visibilityOf(password));
-        password.sendKeys(ExcelCredentials.PassWord+Keys.ENTER);
-
-        //this is using incapsulation with created class
-//        driver.navigate().to(credentials.getWebsiteLink());
-//        wait.until(ExpectedConditions.visibilityOf(signin));
+//        driver.navigate().to(ExcelCredentials.Website);
 //        signin.click();
 //        wait.until(ExpectedConditions.visibilityOf(username));
-//        username.sendKeys(credentials.getUserName()+ Keys.ENTER);
+//        username.sendKeys(ExcelCredentials.UserName+Keys.ENTER);
 //        wait.until(ExpectedConditions.visibilityOf(password));
-//        password.sendKeys(credentials.getPassWord()+Keys.ENTER);
+//        password.sendKeys(ExcelCredentials.PassWord+Keys.ENTER);
+
+        //this is using Encapsulation with created class
+        driver.navigate().to(Encapsulation_credentials.getWebsiteLink());
+        wait.until(ExpectedConditions.visibilityOf(signin));
+        signin.click();
+        wait.until(ExpectedConditions.visibilityOf(username));
+        username.sendKeys(Encapsulation_credentials.getUserName()+ Keys.ENTER);
+        wait.until(ExpectedConditions.visibilityOf(password));
+        password.sendKeys(Encapsulation_credentials.getPassWord()+Keys.ENTER);
 
 
         //this is using config reader

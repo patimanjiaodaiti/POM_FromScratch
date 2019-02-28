@@ -38,8 +38,6 @@ public class YahooTest extends TestBase {
 
 
 
-
-
 //    @Test(priority = 3)//priority will run the code with in the order we decide from small to large
 //    public void secondTest() {
 //    driver.navigate().to("https://www.google.com/");

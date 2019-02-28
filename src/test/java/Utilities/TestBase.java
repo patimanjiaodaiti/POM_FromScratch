@@ -1,6 +1,7 @@
 package Utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.poi.hssf.record.chart.DatRecord;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -18,8 +19,9 @@ public class TestBase {
 
     @BeforeMethod
     public void beforeMethod(){
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();//we need to create instance variable(variable that does not belongs to
+        driver= Driver.getDriver();
+//        WebDriverManager.chromedriver().setup();
+//        driver = new ChromeDriver();//we need to create instance variable(variable that does not belongs to
         // any class) in order to use driver in other methods
         myLibrary=new MyLibrary(driver);
         wait=new WebDriverWait(driver,50);

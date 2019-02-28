@@ -34,8 +34,8 @@ public class MyLibrary {
     }
 
     public void TakeScreenshotsplease( String SaveAs){
-        TakesScreenshot mirzat=(TakesScreenshot)driver;
-        File myfile=mirzat.getScreenshotAs(OutputType.FILE);
+        TakesScreenshot patima=(TakesScreenshot)driver;
+        File myfile=patima.getScreenshotAs(OutputType.FILE);
         try {
             FileUtils.copyFile(myfile, new File("src/test/captures/"+SaveAs+".jpg"));
         } catch (IOException e) {
