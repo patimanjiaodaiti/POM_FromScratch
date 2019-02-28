@@ -1,6 +1,7 @@
 package Pages;
 
 import Utilities.ConfigReader;
+import Utilities.ExcelReader;
 import Utilities.TestBase;
 import Utilities.credentials;
 import org.openqa.selenium.Keys;
@@ -25,7 +26,15 @@ public class Elements extends TestBase {
     WebElement password;
 
     public void login(){
-        //this is using incapsulation
+        //This is using Excel sheet
+        driver.navigate().to(ExcelCredentials.Website);
+        signin.click();
+        wait.until(ExpectedConditions.visibilityOf(username));
+        username.sendKeys(ExcelCredentials.UserName+Keys.ENTER);
+        wait.until(ExpectedConditions.visibilityOf(password));
+        password.sendKeys(ExcelCredentials.PassWord+Keys.ENTER);
+
+        //this is using incapsulation with created class
 //        driver.navigate().to(credentials.getWebsiteLink());
 //        wait.until(ExpectedConditions.visibilityOf(signin));
 //        signin.click();
@@ -36,12 +45,12 @@ public class Elements extends TestBase {
 
 
         //this is using config reader
-        driver.navigate().to(ConfigReader.getInfo("WebSiteAddress"));
-        signin.click();
-        wait.until(ExpectedConditions.visibilityOf(username));
-        username.sendKeys(ConfigReader.getInfo("UserName") + Keys.ENTER);
-        wait.until(ExpectedConditions.visibilityOf(username));
-        password.sendKeys(ConfigReader.getInfo("PassWord") + Keys.ENTER);
+//        driver.navigate().to(ConfigReader.getInfo("WebSiteAddress"));
+//        signin.click();
+//        wait.until(ExpectedConditions.visibilityOf(username));
+//        username.sendKeys(ConfigReader.getInfo("UserName") + Keys.ENTER);
+//        wait.until(ExpectedConditions.visibilityOf(username));
+//        password.sendKeys(ConfigReader.getInfo("PassWord") + Keys.ENTER);
 
 
     }
