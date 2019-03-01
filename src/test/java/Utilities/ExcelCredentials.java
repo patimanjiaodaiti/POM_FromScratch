@@ -1,6 +1,4 @@
-package Pages;
-
-import Utilities.ExcelReader;
+package Utilities;
 
 public class ExcelCredentials {
     public static String UserName= ExcelReader.getData(1,1),

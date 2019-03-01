@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37ef8f98-c969-44fa-b954-d66ba1c33ed5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/YahooCredentials.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/YahooCredentials.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/YahooCredentials.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Elements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ExcelCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ExcelCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/YahooCredentials.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/captures_jpg_file/yahooScreenShot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/captures_jpg_file/yahooScreenShot.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ExcelCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/ExcelCredentials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/YahooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/YahooTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/ExcelReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/MyLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/MyLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/credentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/Encapsulation_credentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Elements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Elements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ExcelCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/ExcelCredentials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/YahooTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/YahooTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/ConfigReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/MyLibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/MyLibrary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/credentials.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +28,74 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Elements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/YahooTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Encapsulation_credentials.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,23 +104,30 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>yahooCred</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/credentials.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Utilities/ExcelReader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" />
         <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/Encapsulation_credentials.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/ExcelCredentials.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/MyLibrary.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/Elements.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Utilities/Driver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pages/ExcelCredentials.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/YahooTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/ExcelReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/ExcelCredentials.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/Driver.java" />
       </list>
     </option>
   </component>
@@ -91,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,57 +184,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="POM_FromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POM_FromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="captures_jpg_file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="POM_FromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POM_FromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="POM_FromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POM_FromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="POM_FromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POM_FromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="POM_FromScratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POM_FromScratch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551378944733" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551408603570" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Utilities" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fjiaodaiiti\Desktop\Selenium\POM_FromScratch\src\test\java\Utilities" />
       <recent name="C:\Users\fjiaodaiiti\Desktop\Selenium\POM_FromScratch\src\test" />
       <recent name="C:\Users\fjiaodaiiti\Desktop\Selenium\POM_FromScratch" />
     </key>
@@ -302,25 +342,17 @@
       <option name="project" value="LOCAL" />
       <updated>1551314241174</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LatestUpdate">
+      <created>1551383202500</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551383202500</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YahooTest - 2019.02.28 at 12h 37m 44s.xml">
-      <configuration name="YahooTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YahooTest_firstTest - 2019.02.28 at 12h 38m 07s.xml">
-      <configuration name="YahooTest.firstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YahooTest - 2019.02.28 at 12h 38m 45s.xml">
-      <configuration name="YahooTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YahooTest - 2019.02.28 at 12h 40m 49s.xml">
-      <configuration name="YahooTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YahooTest_firstTest - 2019.02.28 at 13h 02m 00s.xml">
-      <configuration name="YahooTest.firstTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="YahooTest_firstTest - 2019.02.28 at 13h 02m 50s.xml">
       <configuration name="YahooTest.firstTest" configurationId="TestNG" />
     </history-entry>
@@ -336,11 +368,26 @@
     <history-entry file="YahooTest_firstTest - 2019.02.28 at 13h 36m 20s.xml">
       <configuration name="YahooTest.firstTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="YahooTest - 2019.02.28 at 15h 12m 06s.xml">
+      <configuration name="YahooTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YahooTest_firstTest - 2019.02.28 at 15h 40m 57s.xml">
+      <configuration name="YahooTest.firstTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YahooTest_firstTest - 2019.02.28 at 15h 43m 09s.xml">
+      <configuration name="YahooTest.firstTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YahooTest_firstTest - 2019.02.28 at 15h 45m 16s.xml">
+      <configuration name="YahooTest.firstTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YahooTest_firstTest - 2019.02.28 at 15h 53m 16s.xml">
+      <configuration name="YahooTest.firstTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1296" height="696" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26779935" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30177993" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -348,8 +395,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34574467" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.05319149" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18439716" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,9 +421,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/Yahoo/com.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/captures_jpg_file/yahooScreenShot.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/captures_jpg_file/yahooScreenShot.jpg" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages.java" />
     <entry file="file://$PROJECT_DIR$/POM_FromScratch.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -388,27 +433,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/ExcelCredentials.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/MyLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        <state relative-caret-position="168">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
@@ -417,20 +447,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ExcelReader.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/captures/testingScreenShot.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="101" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ExcelCredentials.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        <state relative-caret-position="363">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/YahooTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -439,45 +493,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="272">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/ExcelCredentials.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/YahooTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Elements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Encapsulation_credentials.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Elements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

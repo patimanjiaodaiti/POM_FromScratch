@@ -9,7 +9,7 @@ public class ConfigReader {
     static {//in a class first it executes static block, then initialized block , then constructor method,
         // the any other methods will execute
         try {
-        FileInputStream file = new FileInputStream("config.properties");
+        FileInputStream file = new FileInputStream("src/test/java/Utilities/config.properties");
         //FileInputStream object class it self always throws checked exception and we need to handle it emediatly
             po = new Properties();
             po.load(file);

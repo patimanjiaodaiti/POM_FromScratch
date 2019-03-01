@@ -37,7 +37,7 @@ public class MyLibrary {
         TakesScreenshot patima=(TakesScreenshot)driver;
         File myfile=patima.getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(myfile, new File("src/test/captures/"+SaveAs+".jpg"));
+            FileUtils.copyFile(myfile, new File("src/test/java/Utilities/captures/"+SaveAs+".jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }

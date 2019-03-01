@@ -12,7 +12,7 @@ public class ExcelReader {
     static XSSFSheet Sheet1;//creating here so we can used anywhere we want to use
     static {
         try {
-            FileInputStream file = new FileInputStream("src/test/YahooCredentials.xlsx");
+            FileInputStream file = new FileInputStream("src/test/java/Utilities/YahooCredentials.xlsx");
             XSSFWorkbook YahooCredentials = new XSSFWorkbook(file);
             Sheet1 = YahooCredentials.getSheet("Sheet1");
         }catch (Exception e){}

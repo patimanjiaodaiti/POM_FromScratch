@@ -33,7 +33,7 @@ public class TestBase {
     }
     @AfterMethod
     public void afterMethod(){
-        myLibrary.sleep(3);
-        driver.quit();
+        myLibrary.sleep(2);
+        Driver.CloseDriver();
     }
 }
