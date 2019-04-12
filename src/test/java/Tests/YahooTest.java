@@ -16,6 +16,7 @@ public class YahooTest extends TestBase {
 
     @Test(priority = 1)
     public void firstTest() {
+        Test=reportDoc.createTest("Yahoo");
         myLibrary.TakeScreenshotsplease("testingScreenShot");
 
     }
